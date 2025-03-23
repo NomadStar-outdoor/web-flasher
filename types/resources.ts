@@ -660,6 +660,18 @@ export const OfflineHardwareList = [
     requiresDfu: true,
     images: ["seeed_xiao_nrf52_kit.svg"]
   },
+  {
+    hwModel: 89,
+    hwModelSlug: "NOMADSTAR_METEOR_PRO",
+    platformioTarget: "rak4631_nomadstar_meteor_pro",
+    architecture: "nrf52840",
+    activelySupported: true,
+    supportLevel: 1,
+    displayName: "NomadStar Meteor Pro",
+    tags: ["NomadStar", "RAK"],
+    requiresDfu: true,
+    images: ["rak4631_nomadstar_meteor_pro.svg"]
+  }
 ];
 
 const markdownContent = `
